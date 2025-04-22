@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Hello_World
+namespace Consolevalue 
 {
-    internal class Variable
+    class Variable
     {
+        public static void Main(string[] args) //main method
+        {
+            int number1 = 25;
+            Console.WriteLine(number1);
+        }
     }
 }
